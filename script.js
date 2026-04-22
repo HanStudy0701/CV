@@ -16,6 +16,7 @@ const i18n = {
     addNewsTitle: '新增動態 / 證明資料',
     addNewsHint: '你可以在此新增近期成果。資料會儲存在瀏覽器 localStorage，不需要改程式也可更新。',
     submitNews: '新增',
+    backTop: '回到最上方'
   },
   en: {
     tagline: 'ESG · Data · Project Coordination',
@@ -34,6 +35,7 @@ const i18n = {
     addNewsTitle: 'Add Update / Evidence',
     addNewsHint: 'Add your latest achievements here. Data is saved in browser localStorage.',
     submitNews: 'Add',
+    backTop: 'Back to top'
   }
 };
 
@@ -195,6 +197,14 @@ function renderList(sectionId, title, items) {
 function render() {
   document.querySelectorAll('[data-i18n]').forEach((el) => {
     el.textContent = i18n[lang][el.dataset.i18n] || el.textContent;
+  });
+  document.querySelectorAll('[data-i18n-aria-label]').forEach((el) => {
+    const key = el.dataset.i18nAriaLabel;
+    if (i18n[lang][key]) el.setAttribute('aria-label', i18n[lang][key]);
+  });
+  document.querySelectorAll('[data-i18n-title]').forEach((el) => {
+    const key = el.dataset.i18nTitle;
+    if (i18n[lang][key]) el.setAttribute('title', i18n[lang][key]);
   });
 
   renderNav();
