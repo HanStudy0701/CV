@@ -1,12 +1,12 @@
 const i18n = {
   zh: {
-    tagline: 'ESG · 數據分析 · 專案協作',
-    name: '鄧翰升 TENG HAN SEN',
-    headline: '跨足企管幕僚策略、永續 ESG 研究與商業數據分析，持續把複雜議題轉成可執行成果。',
+    tagline: 'Portfolio',
+    name: 'HS',
+    headline: 'TENG HAN SEN｜跨足企管幕僚策略、永續 ESG 研究與商業數據分析。',
     nav: ['自我介紹', '教育背景', '工作經驗', '專案經驗', '獎項競賽', '技能與證照', '最新動態'],
     aboutTitle: '自我介紹',
     aboutBody:
-      '您好，我是翰升，馬來西亞籍，目前就讀政大 MBA 並於台經院永續與環境研究室實習。具備清晰商業邏輯、強自學力與跨文化適應力，做事習慣化繁為簡。擅長將政策法規、營運數據與專案流程整合成可落地的策略，包含：永續專案主導（黑水虻廚餘循環專案獲國科會補助）、產業政策研究（SDG/GRI/TNFD/ISSB 等框架）與商業數據管理（利用生成式 AI 與數位工具提升協作效率）。',
+      '您好，我是翰升，馬來西亞籍，目前就讀政大 MBA 並於台灣經濟研究院實習。具備清晰商業邏輯、強自學力與跨文化適應力，擅長將政策法規、營運數據與專案流程整合成可落地成果。',
     educationTitle: '教育背景',
     experienceTitle: '工作經驗',
     projectsTitle: '專案經驗',
@@ -19,13 +19,13 @@ const i18n = {
     backTop: '回到最上方'
   },
   en: {
-    tagline: 'ESG · Data · Project Coordination',
-    name: 'TENG HAN SEN',
-    headline: 'Bridging business strategy, ESG research, and analytics into practical outputs.',
+    tagline: 'Portfolio',
+    name: 'HS',
+    headline: 'TENG HAN SEN | Business strategy, ESG research, and data execution.',
     nav: ['About', 'Education', 'Experience', 'Projects', 'Awards', 'Skills & Certificates', 'Updates'],
     aboutTitle: 'About',
     aboutBody:
-      'Hi, I am Han Sen from Malaysia. I am currently an MBA student at NCCU and an ESG research intern at TIER. I focus on simplifying complexity: turning policy, operational data, and project workflows into actionable outputs. My strengths include sustainability project leadership (NSTC-funded BSF circular project), policy research (SDG/GRI/TNFD/ISSB), and data-supported project execution with GenAI-enabled productivity.',
+      'Hi, I am Han Sen from Malaysia. I am currently an MBA student at NCCU and an intern at TIER. I focus on turning policy, data, and project workflows into practical outputs.',
     educationTitle: 'Education',
     experienceTitle: 'Professional Experience',
     projectsTitle: 'Projects',
@@ -47,66 +47,46 @@ const profile = {
       meta: '2025/08 – 2027/06'
     },
     {
-      title: 'Tzu Chi University — Bachelor of Business Administration (GPA 4.00/4.00)',
-      zhTitle: '慈濟大學｜經營管理學系（GPA 4.00/4.00）',
+      title: 'Tzu Chi University — Bachelor of Business Administration (GPA 4.0/4.0)',
+      zhTitle: '慈濟大學｜經營管理學系（GPA 4.0/4.0）',
       meta: '2021/10 – 2025/06'
     }
   ],
   experience: [
     {
-      title: 'Taiwan Institute of Economic Research — ESG & Environmental Research Intern',
-      zhTitle: '財團法人台灣經濟研究院｜永續與環境研究室實習生',
-      meta: '2025/07 – Present · Taipei',
+      title: 'Taiwan Institute of Economic Research — ESG & Environmental Lab Intern',
+      zhTitle: '台灣經濟研究院（五所）｜實習生',
+      meta: '2025/07 – Present',
       bullets: [
-        'Track and synthesize SDG, GRI, TNFD, ISSB S1/S2, and TCFD updates into analyst-ready insights.',
-        'Benchmark 50+ countries’ VNR practices and map implications for Taiwan sustainability practices.',
-        'Support energy/utility case reviews (e.g., Taipower/CPC/TCC) by extracting KPI evidence and compliance points.',
-        'Assist cross-unit coordination for national sustainability award review workflows and workshop materials.'
+        'Track SDG/GRI/TNFD/ISSB/TCFD updates and extract practical implications.',
+        'Benchmark 50+ countries’ VNR practices and support Taiwan disclosure analysis.',
+        'Support energy/utility case KPI validation and workshop slide preparation.'
       ],
-      zhBullets: [
-        '持續追蹤 SDG、GRI、TNFD、ISSB S1/S2、TCFD 等國際框架，整理為研究可用素材。',
-        '比較 50+ 國家 VNR 實務並萃取對台灣企業永續揭露的關鍵啟示。',
-        '支援台電、中油、台泥等能源案例資料彙整，抽取 KPI 與法遵檢核重點。',
-        '協助國家永續發展獎審查活動之跨單位流程推進與簡報準備。'
-      ]
+      zhBullets: ['追蹤 SDG、GRI、TNFD、ISSB、TCFD 等框架並整理重點。', '比較 50+ 國家 VNR 實務並支援揭露分析。', '支援能源案例 KPI 彙整與簡報製作。']
     },
     {
       title: 'Huizhi Education Association — Marketing Assistant Intern',
       zhTitle: '社團法人慧治教育協會｜行銷助理實習生',
-      meta: '2024/07 – 2025/06 · Hualien',
+      meta: '2024/07 – 2025/06',
       bullets: [
-        'Collected and cleaned back-office operational data; converted findings into visual reports for management.',
-        'Worked as project coordinator for task tracking and cross-team execution to ensure on-time delivery.',
-        'Maintained and optimized website content/layout and supported platform operations.',
-        'Supported online events and livestream control with quick issue response.'
+        'Collected operational data and converted it into visual reports for management.',
+        'Coordinated project tasks and cross-functional collaboration.',
+        'Maintained website content and supported livestream operations.'
       ],
-      zhBullets: [
-        '負責後台營運數據彙整與分析，轉化為管理層可用的視覺化簡報。',
-        '擔任專案協作角色，追蹤進度與跨部門溝通，確保任務如期交付。',
-        '協助網站內容維護、排版優化與日常平台營運。',
-        '支援線上活動與直播控台，具備現場應變與問題處理能力。'
-      ]
+      zhBullets: ['負責營運數據彙整並轉化為視覺化報告。', '協助專案追蹤與跨部門協作。', '維護網站內容並支援線上活動控台。']
     }
   ],
   projects: [
     {
-      title: 'Solar-Thermal × Black Soldier Fly (BSF) Food-Waste Upcycling — Project Lead',
-      zhTitle: '綠色能源整合黑水虻廚餘去化專案｜專案組長',
+      title: 'Black Soldier Fly Integrated Green-Energy Food-Waste Treatment Project (School Team)',
+      zhTitle: '黑水虻整合綠色能源去化廚餘專案（學校團隊）｜團隊隊長',
       meta: '2022/09 – Present',
       bullets: [
-        'Led a cross-disciplinary student team to design an integrated process combining solar-thermal drying and BSF larvae for kitchen-waste upcycling.',
-        'Planned and executed pilot validation, including parameter tracking, process stability checks, and conversion efficiency comparison.',
-        'Built a practical deployment model for schools and leisure farms, with simulation outputs for cost-benefit planning and scaling scenarios.',
-        'Converted technical experiments into business-facing pitches and served as lead presenter in national competitions.',
-        'Research outputs included two conference papers; project received NSTC Undergraduate Research Program grant support.'
+        'Led a school team to integrate solar-thermal processing with BSF food-waste treatment.',
+        'Validated process parameters and developed scale-up simulation inputs.',
+        'Produced conference outputs and competition-ready project pitching materials.'
       ],
-      zhBullets: [
-        '主導跨領域團隊，設計「太陽能熱處理 × 黑水虻」廚餘去化整合流程，兼顧減廢與價值化。',
-        '規劃並執行小規模驗證，追蹤關鍵養殖參數、去化效率與流程穩定性。',
-        '建立可供大專校園與休閒農場導入的實作模型，並產出成本效益與規模化模擬結果。',
-        '將技術成果轉譯為商業提案，擔任多場全國競賽首席簡報人。',
-        '完成兩篇研討會論文，並獲國科會大專生研究計畫補助。'
-      ]
+      zhBullets: ['帶領學校團隊整合太陽能熱處理與黑水虻廚餘去化流程。', '驗證流程參數並建立可規模化模擬輸入。', '完成研討會產出與競賽簡報成果。']
     },
     {
       title: 'Vibe Coding Practice Website (In Ongoing Testing)',
@@ -125,37 +105,39 @@ const profile = {
     }
   ],
   awards: [
-    'Selected Team, Youth Linking Industry Local Special Project Achievement Subsidy Program (2025)',
-    'Champion, Mobile Communications Practice Competition — Smart Energy & IoT Applications (2024)',
-    'Silver Award, National Business Management Thematic Competition — Management Group (2024)',
-    'Selected Team, MOE University Entrepreneurship Simulation Learning Platform (2024)',
-    'Semifinalist, Youth Public Practice Plan (Asia-Pacific) (2023)',
-    'Selected Team, Youth Public Practice Plan (Asia-Pacific) (2022)',
-    'Shortlisted, Hualien County HSH Innovation & Entrepreneurship Competition (2023)',
-    'Honorable Mention, Taiwan Energy Sustainable Creative Implementation Competition (Net-Zero Emissions) (2024)',
-    'Approved Grant, NSTC Undergraduate Student Research Program (2024)'
+    'Selected Team, Youth Linking Industry Local Special Project Achievement Subsidy Program｜2025',
+    'Champion, Mobile Communications Practice Competition — Smart Energy & IoT Applications｜2024',
+    'Silver Award, National Business Management Thematic Competition — Management Group｜2024',
+    'Selected Team, MOE University Entrepreneurship Simulation Learning Platform｜2024',
+    'Semifinalist, Youth Public Practice Plan (Asia-Pacific)｜2023',
+    'Selected Team, Youth Public Practice Plan (Asia-Pacific)｜2022',
+    'Shortlisted, Hualien County HSH Innovation & Entrepreneurship Competition｜2023',
+    'Honorable Mention, Taiwan Energy Sustainable Creative Implementation Competition (Net-Zero Emissions)｜2024',
+    'Approved Grant, NSTC Undergraduate Student Research Program｜2024'
   ],
   zhAwards: [
-    '青年鏈結地方產業專題成果補助計畫｜入選團隊（2025）',
-    '行動通訊實務競賽－智慧能源與 IoT 應用｜冠軍（2024）',
-    '全國經營管理主題式競賽－管理組｜銀牌（2024）',
-    '教育部大專校院創業實戰模擬學習平台｜入選團隊（2024）',
-    '青年公共參與實踐計畫（亞太）｜準決賽（2023）',
-    '青年公共參與實踐計畫（亞太）｜入選團隊（2022）',
-    '花蓮縣 HSH 創新創業競賽｜入圍（2023）',
-    '台灣能－永續創意實作競賽（淨零排放）｜佳作（2024）',
-    '國科會大專生研究計畫｜核定補助（2024）'
+    '青年鏈結地方產業專題成果補助計畫｜2025',
+    '行動通訊實務競賽－智慧能源與 IoT 應用｜2024',
+    '全國經營管理主題式競賽－管理組｜2024',
+    '教育部大專校院創業實戰模擬學習平台｜2024',
+    '青年公共參與實踐計畫（亞太）準決賽｜2023',
+    '青年公共參與實踐計畫（亞太）入選團隊｜2022',
+    '花蓮縣 HSH 創新創業競賽｜2023',
+    '台灣能－永續創意實作競賽（淨零排放）｜2024',
+    '國科會大專生研究計畫核定補助｜2024'
   ],
   skills: {
     zh: [
-      '語言：中文（母語）、英文（中等）、馬來文（中等／日常對話）',
-      '工具：Excel（含基本 VBA）、PowerPoint、Word、Canva、ChatGPT、Claude Code、基本 Python、Google Analytics、WordPress',
-      '證照：ISO 14064-1:2018、TBSA 商務企劃、PMA 專案助理、Sage UBS、PVQC Business & Management（平均 570/600）'
+      '語文能力：中文（聽/精通 說/精通 讀/精通 寫/精通）；英文（聽/中等 說/中等 讀/中等 寫/中等）；馬來文（聽/中等 說/中等 讀/中等 寫/中等）',
+      '專長（Microsoft Office）：#文件或資料輸入建檔處理 #文書處理╱排版能力 #文件收發與檔案管理 #行政事務處理 #Word #Excel #PowerPoint #VBA',
+      '專長（Adobe）：#基礎多媒體影像處理 #Adobe InDesign #Illustrator #Premiere',
+      '證照：ACP InDesign 2020、PMA 專案助理、TBSA 商務企劃能力初級檢定、ISO 14064-1'
     ],
     en: [
-      'Languages: Mandarin (Native), English (Intermediate), Malay (Conversational)',
-      'Tools: Excel (basic VBA), PowerPoint, Word, Canva, ChatGPT, Claude Code, basic Python, Google Analytics, WordPress',
-      'Certificates: ISO 14064-1:2018, TBSA, PMA, Sage UBS, PVQC Business & Management (avg. 570/600)'
+      'Languages: Chinese (L/S/R/W Fluent), English (L/S/R/W Intermediate), Malay (L/S/R/W Intermediate)',
+      'Microsoft Office: document input/archiving, document formatting, file management, administration, Word/Excel/PowerPoint/VBA',
+      'Adobe: basic multimedia processing, InDesign, Illustrator, Premiere',
+      'Certifications: ACP InDesign 2020, PMA, TBSA Basic Business Planning, ISO 14064-1'
     ]
   }
 };
