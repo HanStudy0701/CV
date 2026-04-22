@@ -141,6 +141,25 @@ h2 {
   padding: 1.2rem 0 2rem;
 }
 
+
+.back-top-icon {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  text-decoration: none;
+  background: #e7f6f5;
+  color: var(--primary);
+  font-size: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.back-top-icon:hover {
+  background: #c9ece9;
+}
+
 @media (max-width: 760px) {
   .header-grid {
     grid-template-columns: 1fr;
