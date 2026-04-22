@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teng Han Sen | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-grid">
+        <img
+          class="avatar"
+          src="avatar.jpg"
+          alt="Teng Han Sen avatar"
+          onerror="this.src='https://via.placeholder.com/220x220?text=Avatar'"
+        />
+        <div>
+          <p class="eyebrow" data-i18n="tagline">ESG · Data · Project Coordination</p>
+          <h1 data-i18n="name">鄧翰升 TENG HAN SEN</h1>
+          <p data-i18n="headline">
+            跨足企管、永續研究與資料分析，持續把複雜議題轉成可執行成果。
+          </p>
+          <ul class="contact-list">
+            <li>📍 Taipei City, Taiwan</li>
+            <li>📞 +886 930-718-112</li>
+            <li>✉️ tenghansen@gmail.com</li>
+          </ul>
+          <div class="controls">
+            <button id="lang-zh" class="btn active">中文</button>
+            <button id="lang-en" class="btn">English</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="sticky-nav">
+      <div class="container nav-links" id="nav-links"></div>
+    </nav>
+
+    <main class="container">
+      <section id="about" class="card"></section>
+      <section id="education" class="card"></section>
+      <section id="experience" class="card"></section>
+      <section id="projects" class="card"></section>
+      <section id="awards" class="card"></section>
+      <section id="skills" class="card"></section>
+      <section id="news" class="card"></section>
+
+      <section class="card">
+        <h2 data-i18n="addNewsTitle">新增動態 / 證明資料</h2>
+        <p data-i18n="addNewsHint">
+          你可以在此新增近期成果。資料會儲存在瀏覽器 localStorage，不需要改程式也可更新。
+        </p>
+        <form id="news-form" class="news-form">
+          <input type="text" id="news-date" placeholder="YYYY-MM-DD" required />
+          <input type="text" id="news-title" placeholder="標題 / Title" required />
+          <textarea id="news-detail" rows="3" placeholder="內容 / Details" required></textarea>
+          <button type="submit" class="btn" data-i18n="submitNews">新增</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <a href="#top" data-i18n="backTop">回到最上方</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
